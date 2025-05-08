@@ -51,7 +51,7 @@ class Program
 
     static void OpenUrl(IWebDriver driver, ExtentTest test, string url)
     {
-        test.Log(Status.Info, $"Khairul Islam Robi \nDept of CSE \nJagannath University");
+        test.Log(Status.Info, $"Mustakin Rahman \nDept of CSE \nJagannath University");
         driver.Navigate().GoToUrl(url);
         Thread.Sleep(1000);
         test.Log(Status.Info, $"Open url: {url}");
